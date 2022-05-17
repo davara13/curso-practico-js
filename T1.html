@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="es">
+    <title>Taller 1: Curso practico JS</title>
+    <link rel="stylesheet" href="css/T1.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Primer taller del <strong>curso practico de JavaScript Básico</strong> de Platzi</p>
+    </header>
+    
+    <section id="cuadrado">
+        <h2>Cuadrado</h2>
+        <form action="">
+            <label for="ladoCuadrado">Escribe cuánto mide el lado del cuadrado</label>
+            <input id="ladoCuadrado" type="number" name="lado">
+            <button type="button" onclick = "traerACuadrado()">Calcular Área</button>
+            <button type="button" onclick = "traerPCuadrado()">Calcular perímetro</button>
+        </form>
+
+        <p id="resultado"></p>
+    </section>
+
+    <section id="Circulo">
+        <h2>Circulo</h2>
+        <form action="">
+            <label for="radio">Escribe cuánto mide el radio del circulo</label>
+            <input id="radio" type="number" name="lado">
+            <button type="button" onclick = "traerACirculo()">Calcular Área</button>
+            <button type="button" onclick = "traerPCirculo()">Calcular perímetro</button>
+        </form>
+
+        <p id="resultadoCir"></p>
+    </section>
+
+    <script src="./T1.js"></script>
+    
+</body>
+</html>
