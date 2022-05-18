@@ -62,5 +62,5 @@ function traerACirculo(){
 
     var circulo = new Circulo(Number(radio));
 
-    document.getElementById("resultadoCir").innerHTML = "El área del cuadrado es: " + circulo.area.toFixed(2);
+    document.getElementById("resultadoCir").innerText = "El área del cuadrado es: " + circulo.area.toFixed(2);
 }

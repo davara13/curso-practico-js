@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 2: Curso practico JS</title>
+    <link rel="stylesheet" href="css/T2.css">
+</head>
+<body>
+    <header>
+        <h1>Descuentos</h1>
+        <p>Segundo taller del <strong>curso practico de JavaScript Básico</strong> de Platzi</p>
+    </header>
+
+    <section id="decuento">
+        <h2>Averigua el Descuento</h2>
+        <form action="">
+            <label for="price">Escribe precio original del producto</label>
+            <input id="price" type="number" name="price">
+            <label for="discount">Escribe el descuento que te están haciendo</label>
+            <input id="discount" type="number" name="discount">
+            <button type="button" onclick = "finalPrice()">Precio Final</button>
+        </form>
+
+        <p id="resultado"></p>
+    </section>
+
+    <script src = "./T2.js"></script>
+</body>
+</html>
